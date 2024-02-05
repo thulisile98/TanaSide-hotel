@@ -51,7 +51,7 @@ const AddRoom = () => {
 		setTimeout(() => {
 			setSuccessMessage("")
 			setErrorMessage("")
-		}, 3000)
+		},3000)
 	}
 
 	return (
