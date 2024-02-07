@@ -50,7 +50,7 @@ const ExistingRooms = () => {
 		try {
 			const result = await deleteRoom(roomId)
 			if (result === "") {
-				setSuccessMessage(`Room No ${roomId} was delete`)
+				setSuccessMessage(`Room No ${roomId} was deleted`)
 				fetchRooms()
 			} else {
 				console.error(`Error deleting room : ${result.message}`)
@@ -97,7 +97,7 @@ const ExistingRooms = () => {
 
 							<Col md={6} className="d-flex justify-content-end">
 								<Link to={"/add-room"}>
-									<FaPlus />
+                                Add Room<FaPlus />
 								</Link>
 							</Col>
 						</Row>
