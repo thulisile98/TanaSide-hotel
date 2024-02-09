@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RoomResult = () => {
+const Parallax = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const RoomResult = () => {
   )
 }
 
-export default RoomResult
+export default Parallax
